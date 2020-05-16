@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Kolor Mobile</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="stylesheet" type="text/css" href="styles/framework.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="fonts/css/fontawesome-all.min.css">  
+<!-- Don't forget to update PWA version (must be same) in pwa.js & manifest.json -->
+<link rel="manifest" href="_manifest.json" data-pwa-version="set_by_pwa.js">
+<link rel="apple-touch-icon" sizes="180x180" href="app/icons/icon-192x192.png">
+</head>
+    
+<body class="theme-light" data-gradient="gradient-1">
+        
+<div id="page">
+    
+    <div id="page-preloader">
+        <div class="loader-main"><div class="preload-spinner"></div></div>
+    </div>
+    
+	<div class="header header-transparent header-fixed header-logo-app">
+        <a href="#" class="back-button header-title color-theme"></a>
+		<a href="#" class="header-icon header-icon-1 color-theme back-button"><i class="fas fa-arrow-left"></i></a>
+		<a href="#" data-toggle-theme class="header-icon header-icon-3 color-theme"><i class="fas fa-moon"></i></a>
+		<a data-menu="menu-settings" href="#" class="header-icon header-icon-2 color-theme"><i class="fas fa-cog fa-spin"></i></a>
+	</div>
+                  
+    <div class="page-bg"><div></div></div>
+    <div class="page-content">     
+        
+        <a href="#" class="cover-next bottom-50 color-gray2-dark">Next<i class="fa fa-angle-right left-10"></i></a>
+        <a href="#" class="cover-prev bottom-50 color-gray2-dark"><i class="fa fa-angle-left right-10"></i>Previous</a>
+        <a href="#" class="cover-button button round-small button-m shadow-huge bg-red2-dark">Get Started</a>
+        
+        <div class="cover-slider owl-carousel owl-has-dots-over bg-theme">
+            <div data-height="cover-header" class="caption bottom-0">
+                <div class="caption-center center-text">
+                    <img class="bottom-30" width="230" src="images/icons/16.png">
+                    <h2 class="color-theme font-24 center-text bottom-10 bolder uppercase">
+                        Kolor
+                    </h2>
+                    <p class="color-theme boxed-text-huge opacity-50 bottom-30 font-14">
+                        Refining a best seller to obtain ultra flexbility, ultra features, and ultra loading times.
+                    </p>
+                </div>
+            </div>
+            <div data-height="cover-header" class="caption bottom-0">
+                <div class="caption-center center-text">
+                    <img class="bottom-30 opacity-70" width="230" src="images/icons/9.png">
+                    <h2 class="color-theme font-24 center-text bottom-10 bolder uppercase">Powerful & Easy</h2>
+                    <p class="color-theme boxed-text-huge opacity-60 bottom-30">
+                        We built Kolor to be fast, easy to use and incredibly powerful. We took care of every aspect.
+                    </p>
+                </div>
+            </div>
+            <div data-height="cover-header" class="caption bottom-0">
+                <div class="caption-center center-text">
+                    <img class="bottom-30" width="230" src="images/icons/7.png">
+                    <h2 class="color-theme font-24 center-text bottom-10 bolder uppercase">Documented for You</h2>
+                    <p class="color-theme boxed-text-huge opacity-60 bottom-30">
+                        Kolor is documented for the average user, you don't need to be a rocket scientist to use it.
+                    </p>
+                </div>
+            </div>
+            <div data-height="cover-header" class="caption bottom-0">
+                <div class="caption-center center-text">
+                    <img class="bottom-30" width="230" src="images/icons/12.png">
+                    <h2 class="color-theme font-24 center-text bottom-10 bolder uppercase">Always here for you!</h2>
+                    <p class="color-theme boxed-text-huge opacity-50 bottom-30">
+                        We're here to help you make your product and our dream come true. Read the docs, write a ticket!
+                    </p>
+                </div>
+            </div>
+            <div data-height="cover-header" class="caption bottom-0">
+                <div class="caption-center center-text">
+                    <img class="bottom-30" width="230" src="images/icons/19.png">
+                    <h2 class="color-theme font-24 center-text bottom-10 bolder uppercase">Ready, set, GO!</h2>
+                    <p class="color-theme boxed-text-huge opacity-50 bottom-30">
+                        Be sure to check out all the pages, there are tones to see and we add more constantly!
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        
+    </div>      
+
+    
+    <div id="menu-share"
+         class="menu-box menu-box-detached round-medium"
+         data-menu-type="menu-box-bottom"
+         data-menu-height="390"
+         data-menu-load="menu-share.html"
+         data-menu-effect="menu-over">
+    </div>   
+    
+    <div id="menu-settings"
+         class="menu-box menu-box-gradient"
+         data-menu-type="menu-box-modal"
+         data-menu-height="100%"
+         data-menu-width="100%"
+         data-menu-load="menu-settings.html"
+         data-menu-effect="menu-over">
+    </div>  
+    
+    <div id="menu-contact"
+         class="menu-box menu-box-detached round-medium"
+         data-menu-type="menu-box-modal"
+         data-menu-height="470"
+         data-menu-load="menu-contact.html"
+         data-menu-effect="menu-over">
+    </div>    
+        
+    <div class="menu-hider"></div>
+</div>
+
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/plugins.js"></script>
+<script type="text/javascript" src="scripts/custom.js" async></script>
+</body>
+
+    
