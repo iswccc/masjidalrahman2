@@ -82,6 +82,10 @@
         <div class="visible-slider single-slider owl-carousel owl-no-dots">
             <div class="slider-item center-text">
                 <div data-height="250" class="caption round-medium shadow-huge">
+                    <div class="caption-bottom center-text bottom-40">
+                        <h1 class="font-24 font-700 color-white">Masjid Al-Rahman</h1>
+                        <span class="under-heading color-white font-12 opacity-80">Islamic Society of West Contra Costa County</span>
+                    </div>
                     <div class="caption-overlay bg-gradient-fade"></div>
                     <div class="caption-bg bg-10"></div>
                 </div>   
@@ -89,26 +93,28 @@
             <div class="slider-item center-text">
                 <div data-height="250" class="caption round-medium shadow-huge">
                     <div class="caption-bottom center-text bottom-40">
-                        <h1 class="font-24 font-700 color-white">It's Nice to Meet You</h1>
-                        <span class="under-heading color-white font-12 opacity-80">Let's get you Started on Beauty and Creativity</span>
+                        <h1 class="font-24 font-700 color-white">Expansion Project</h1>
+                        <span class="under-heading color-white font-12 opacity-80">Contribute to the future of our masjid.
                     </div>
                     <div class="caption-overlay bg-gradient-fade"></div>
                     <div class="caption-bg bg-8"></div>
                 </div>   
             </div>    
+             <a href="https://www.blog.masjidalrahman.com">
             <div class="slider-item center-text">
                 <div data-height="250" class="caption round-medium shadow-huge">
                     <div class="caption-bottom center-text bottom-40">
-                        <h1 class="font-24 font-700 color-white">Tones of Features</h1>
-                        <span class="under-heading color-white font-12 opacity-80">And they're Incredibly Easy to Use</span>
+                        <h1 class="font-24 font-700 color-white">News. Updates. Events.</h1>
+                        <span class="under-heading color-white font-12 opacity-80">Visit our blog for the latest at our Masjid.</span>
                     </div>
                     <div class="caption-overlay bg-gradient-fade"></div>
                     <div class="caption-bg bg-9"></div>
                 </div>   
             </div>
+            </a>
         </div>
         
-        <a class="button button-m caption-under-button round-huge shadow-huge button-center-large bg-red2-dark" href="https://themeforest.net/item/kolor-mobile-mobile-template/22129337">Purchase Today - $26</a>
+        <a onclick="mapsSelector()" class="button button-m caption-under-button round-huge shadow-huge button-center-large bg-red2-dark">Directions</a>
 
         <div class="content content-box round-medium shadow-huge top-20">
             <h2 class="font-700">
@@ -124,7 +130,7 @@
         
         <div class="visible-slider double-slider owl-carousel owl-no-dots bottom-0">
 
-            <a href="#" class="slider-item">
+            <a href="https://www.blog.masjidalrahman.com" class="slider-item">
                 <div data-height="280" class="caption round-medium shadow-huge">
                     <div class="caption-bottom left-15 top-15">
                         <h1 class="color-white font-25">Flatylay</h1>
@@ -314,6 +320,17 @@
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/plugins.js"></script>
 <script type="text/javascript" src="scripts/custom.js" async></script>
+<script>
+function mapsSelector() {
+  if /* if we're on iOS, open in Apple Maps */
+    ((navigator.platform.indexOf("iPhone") != -1) ||
+     (navigator.platform.indexOf("iPad") != -1) ||
+     (navigator.platform.indexOf("iPod") != -1))
+    window.open("maps://maps.google.com/maps?daddr=37.9495518,-122.3326445&amp;ll=");
+else /* else use Google */
+    window.open("https://maps.google.com/maps?daddr=37.9495518,-122.3326445&amp;ll=");
+}
+</script>
 </body>
 
     
